@@ -1,0 +1,12 @@
+E para instalar o servidor , devemos instalar com:
+
+npm install -g jsonserver
+
+Para rodar o banco de dados rode:
+
+json-server --watch db.json
+
+Foi adicionado uma ferramenta para ver o comportamento da API fake, e devido a isso
+foi instalado um pacote para a criação de middleware
+
+json-server --watch db.json --middlewares ./middleware.js
